@@ -3236,7 +3236,7 @@ def main() -> None:
     )
 
     with tabs[0]:
-        st.subheader("Preço e volume sem eixo duplo")
+        st.subheader("Preço e volume ")
         st.plotly_chart(
             make_price_volume_chart(ts_region, "Preço/m² corrigido e volume — recorte selecionado", raw_df=filtered),
             use_container_width=True,
